@@ -1,95 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
+  <title>Sadiya Mehndi Artist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #fff8f5;
+    }
 
-<title>Sadiya Mehndi Artist Bareilly</title>
+    header {
+      background: linear-gradient(45deg, #ff4d6d, #ff8fa3);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      animation: fadeIn 2s;
+    }
 
-<meta name="description" content="Sadiya Mehndi Artist is a professional bridal mehndi artist in Bareilly offering bridal mehndi, engagement mehndi, Arabic mehndi and party mehndi designs.">
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
 
-<link rel="stylesheet" href="style.css">
+    .btn {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
 
+    .insta {
+      background: #E1306C;
+    }
+
+    section {
+      padding: 20px;
+      animation: slideUp 1s;
+    }
+
+    @keyframes slideUp {
+      from {transform: translateY(30px); opacity:0;}
+      to {transform: translateY(0); opacity:1;}
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .reviews {
+      display: grid;
+      gap: 10px;
+    }
+
+    .review-box {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
 </head>
 
 <body>
 
 <header>
+  <h1>Sadiya Mehndi Artist</h1>
+  <p>Professional Bridal Mehndi Artist in Bareilly</p>
 
-<h1>Sadiya Mehndi Artist</h1>
-
-<p>Professional Bridal Mehndi Artist in Bareilly</p>
-
-<a href="https://wa.me/919528234524" class="btn">Book on WhatsApp</a>
-
+  <a href="https://wa.me/919528234524" class="btn">Book on WhatsApp</a>
+  <a href="https://instagram.com/YOUR_USERNAME" class="btn insta">View Instagram</a>
 </header>
 
-<section class="section about">
-
-<h2>About</h2>
-
-<p>
-Sadiya Mehndi Artist is a professional bridal mehndi artist in Bareilly.
-We provide beautiful bridal mehndi, engagement mehndi, Arabic mehndi and
-party mehndi designs.
-</p>
-
+<section>
+  <h2>About</h2>
+  <p>We provide bridal, engagement, Arabic and party mehndi designs with best quality.</p>
 </section>
 
-<section class="section services">
-
-<h2>Our Services</h2>
-
-<div class="cards">
-
-<div class="card">Bridal Mehndi</div>
-<div class="card">Engagement Mehndi</div>
-<div class="card">Arabic Mehndi</div>
-<div class="card">Party Mehndi</div>
-
-</div>
-
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">Bridal Mehndi</div>
+    <div class="card">Engagement Mehndi</div>
+    <div class="card">Arabic Mehndi</div>
+    <div class="card">Party Mehndi</div>
+  </div>
 </section>
 
-<section class="section gallery">
-
-<h2>Our Mehndi Designs</h2>
-
-<div class="gallery-grid">
-
-<img src="images/mehndi1.jpg">
-<img src="images/mehndi2.jpg">
-<img src="images/mehndi3.jpg">
-
-</div>
-
+<section>
+  <h2>Our Mehndi Designs</h2>
+  <div class="gallery">
+    <img src="mehndi1.jpg">
+    <img src="mehndi2.jpg">
+    <img src="mehndi3.jpg">
+    <img src="mehndi4.jpg">
+  </div>
 </section>
 
-<section class="section contact">
+<section>
+  <h2>Client Reviews</h2>
+  <div class="reviews">
+    <div class="review-box">⭐⭐⭐⭐⭐ Amazing work! Very beautiful design.</div>
+    <div class="review-box">⭐⭐⭐⭐⭐ Best mehndi artist in Bareilly!</div>
+    <div class="review-box">⭐⭐⭐⭐⭐ Highly recommended ❤️</div>
+  </div>
+</section>
 
-<h2>Contact</h2>
-
-<p>Email: sadiyakhan61036@gmail.com</p>
-
-<p>Phone: +91 9528234524</p>
-
-<p>Location: Bareilly Uttar Pradesh</p>
-
+<section>
+  <h2>Contact</h2>
+  <p>Email: sadiyakhan61036@gmail.com</p>
+  <p>Phone: +91 9528234524</p>
+  <p>Location: Bareilly, Uttar Pradesh</p>
 </section>
 
 <footer>
-
-<p>© 2026 Sadiya Mehndi Artist</p>
-
+  © 2026 Sadiya Mehndi Artist
 </footer>
-
-<a href="https://wa.me/919528234524" class="whatsapp">
-Chat on WhatsApp
-</a>
-
-<script src="script.js"></script>
 
 </body>
 </html>
